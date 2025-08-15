@@ -1,0 +1,5787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>نقشه 1404 مترو و BRT تهران  و (مشهد اصفهان شیراز تبریز) 1403 Tehran Subway Map - Metro</name>
+    <description><![CDATA[- خطوط خاکستری نشان دهنده خط بی آر تی است.<br>- ارسال گزارش اشکال یا افتتاح ایستگاه جدید به تلگرام<br>http://t.me/iranava<br>- این نقشه آنلاین است و تغییرات جدید به صورت خودکار افزوده میشود.<br>- علامت ضربدر نشان دهنده ایستگاه های تقاطع دو خط است.<br><br>- نقشه کامل و به روز و آنلاین مترو تهران - بدون ایستگاههای راه اندازی نشده - فقط ایستگاههای راه اندازی شده و تکمیل شده و افتتاح شده 1400 1399<br>- سازنده نقشه سایت لینکگاه است.<br>www.linkgah.com<br><br>http://metro.tehran.ir/Default.aspx?tabid=835<br>- نقشه آنلاین و به روز مترو و قطار شهری های ایران فقط شامل ایستگاههای فعال تهران مشهد شیراز اصفهان تبریز و خطوط قطار حومه ای رای]]></description>
+    <Style id="icon-1502-A52714-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1502-A52714-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1502-A52714">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-A52714-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-A52714-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1504-097138-nodesc-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1504-097138-nodesc-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1504-097138-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1504-097138-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1504-097138-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1504-558B2F-nodesc-normal">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1504-558B2F-nodesc-highlight">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1504-558B2F-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1504-558B2F-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1504-558B2F-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1504-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1504-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1504-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1504-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1504-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1504-FFD600-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1504-FFD600-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1504-FFD600">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1504-FFD600-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1504-FFD600-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1532-A52714-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1532-A52714-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1532-A52714">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1532-A52714-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1532-A52714-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1532-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1532-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1532-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1532-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1532-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1535-0097A7-nodesc-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1535-0097A7-nodesc-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1535-0097A7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1535-0097A7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1535-0097A7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1541-BDBDBD-nodesc-normal">
+      <IconStyle>
+        <color>ffbdbdbd</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1541-BDBDBD-nodesc-highlight">
+      <IconStyle>
+        <color>ffbdbdbd</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1541-BDBDBD-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1541-BDBDBD-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1541-BDBDBD-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1541-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1541-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1541-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1541-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1541-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1541-FF5252-nodesc-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1541-FF5252-nodesc-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1541-FF5252-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1541-FF5252-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1541-FF5252-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1568-097138-nodesc-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1568-097138-nodesc-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1568-097138-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1568-097138-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1568-097138-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1624-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1624-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1624-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1624-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1624-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1624-F9A825-nodesc-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1624-F9A825-nodesc-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1624-F9A825-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1624-F9A825-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1624-F9A825-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1673-A52714-nodesc-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1673-A52714-nodesc-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1673-A52714-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1673-A52714-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1673-A52714-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1716-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1716-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1716-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1716-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1716-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1719-F57C00-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1719-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1719-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1719-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1719-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1719-F57C00-nodesc-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1719-F57C00-nodesc-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1719-F57C00-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1719-F57C00-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1719-F57C00-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-006064-nodesc-normal">
+      <IconStyle>
+        <color>ff646000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-006064-nodesc-highlight">
+      <IconStyle>
+        <color>ff646000</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-006064-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-006064-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-006064-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-0097A7-nodesc-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-0097A7-nodesc-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-0097A7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-0097A7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-0097A7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1739-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1739-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-097138-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1739-097138-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1739-097138">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-097138-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-097138-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-097138-nodesc-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-097138-nodesc-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-097138-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-097138-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-097138-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-1A237E-nodesc-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-1A237E-nodesc-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-1A237E-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-1A237E-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-1A237E-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-3949AB-nodesc-normal">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-3949AB-nodesc-highlight">
+      <IconStyle>
+        <color>ffab4939</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-3949AB-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-3949AB-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-3949AB-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-558B2F-nodesc-normal">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-558B2F-nodesc-highlight">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-558B2F-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-558B2F-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-558B2F-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-673AB7-nodesc-normal">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-673AB7-nodesc-highlight">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-673AB7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-673AB7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-673AB7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1739-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1739-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-9C27B0-nodesc-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-9C27B0-nodesc-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-9C27B0-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-9C27B0-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-9C27B0-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-A52714-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1739-A52714-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1739-A52714">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-A52714-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-A52714-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-A52714-nodesc-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-A52714-nodesc-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-A52714-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-A52714-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-A52714-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-C2185B-normal">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1739-C2185B-highlight">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1739-C2185B">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-C2185B-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-C2185B-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-C2185B-nodesc-normal">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-C2185B-nodesc-highlight">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-C2185B-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-C2185B-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-C2185B-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1739-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1739-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-E65100-nodesc-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-E65100-nodesc-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-E65100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-E65100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-E65100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-F9A825-nodesc-normal">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-F9A825-nodesc-highlight">
+      <IconStyle>
+        <color>ff25a8f9</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-F9A825-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-F9A825-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-F9A825-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-FF5252-nodesc-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-FF5252-nodesc-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-FF5252-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-FF5252-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-FF5252-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-FFD600-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1739-FFD600-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1739-FFD600">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-FFD600-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-FFD600-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1739-FFD600-nodesc-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1739-FFD600-nodesc-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1739-FFD600-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1739-FFD600-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1739-FFD600-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0097A7-nodesc-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0097A7-nodesc-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0097A7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0097A7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0097A7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-097138-nodesc-normal">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-097138-nodesc-highlight">
+      <IconStyle>
+        <color>ff387109</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-097138-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-097138-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-097138-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-1A237E-nodesc-normal">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-1A237E-nodesc-highlight">
+      <IconStyle>
+        <color>ff7e231a</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-1A237E-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-1A237E-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-1A237E-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-558B2F-normal">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-558B2F-highlight">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-558B2F">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-558B2F-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-558B2F-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-673AB7-nodesc-normal">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-673AB7-nodesc-highlight">
+      <IconStyle>
+        <color>ffb73a67</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-673AB7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-673AB7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-673AB7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-A52714-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-A52714-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-A52714">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-A52714-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-A52714-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-A52714-nodesc-normal">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-A52714-nodesc-highlight">
+      <IconStyle>
+        <color>ff1427a5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-A52714-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-A52714-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-A52714-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-C2185B-nodesc-normal">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-C2185B-nodesc-highlight">
+      <IconStyle>
+        <color>ff5b18c2</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-C2185B-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-C2185B-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-C2185B-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FFD600-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FFD600-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFD600">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFD600-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFD600-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FFD600-nodesc-normal">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-FFD600-nodesc-highlight">
+      <IconStyle>
+        <color>ff00d6ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-FFD600-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FFD600-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FFD600-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0097A7-4875-nodesc-normal">
+      <LineStyle>
+        <color>ffa79700</color>
+        <width>4.875</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0097A7-4875-nodesc-highlight">
+      <LineStyle>
+        <color>ffa79700</color>
+        <width>7.3125</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0097A7-4875-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0097A7-4875-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0097A7-4875-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-4100-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>4.1</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0288D1-4100-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>6.15</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0288D1-4100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-4100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-4100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0288D1-5456-nodesc-normal">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>5.456</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0288D1-5456-nodesc-highlight">
+      <LineStyle>
+        <color>ffd18802</color>
+        <width>8.184</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0288D1-5456-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0288D1-5456-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0288D1-5456-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-097138-4681-nodesc-normal">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>4.681</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-097138-4681-nodesc-highlight">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>7.0215</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-097138-4681-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-097138-4681-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-097138-4681-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-097138-5263-nodesc-normal">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>5.263</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-097138-5263-nodesc-highlight">
+      <LineStyle>
+        <color>ff387109</color>
+        <width>7.8945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-097138-5263-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-097138-5263-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-097138-5263-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0F9D58-3906-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>3.906</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0F9D58-3906-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>5.859</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0F9D58-3906">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0F9D58-3906-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0F9D58-3906-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-3949AB-3906-normal">
+      <LineStyle>
+        <color>ffab4939</color>
+        <width>3.906</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-3949AB-3906-highlight">
+      <LineStyle>
+        <color>ffab4939</color>
+        <width>5.859</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-3949AB-3906">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-3949AB-3906-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-3949AB-3906-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-424242-4681-nodesc-normal">
+      <LineStyle>
+        <color>ff424242</color>
+        <width>4.681</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-424242-4681-nodesc-highlight">
+      <LineStyle>
+        <color>ff424242</color>
+        <width>7.0215</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-424242-4681-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-424242-4681-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-424242-4681-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-424242-5069-normal">
+      <LineStyle>
+        <color>ff424242</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-424242-5069-highlight">
+      <LineStyle>
+        <color>ff424242</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-424242-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-424242-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-424242-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-424242-5069-nodesc-normal">
+      <LineStyle>
+        <color>ff424242</color>
+        <width>5.069</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-424242-5069-nodesc-highlight">
+      <LineStyle>
+        <color>ff424242</color>
+        <width>7.6035</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-424242-5069-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-424242-5069-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-424242-5069-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-558B2F-4681-nodesc-normal">
+      <LineStyle>
+        <color>ff2f8b55</color>
+        <width>4.681</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-558B2F-4681-nodesc-highlight">
+      <LineStyle>
+        <color>ff2f8b55</color>
+        <width>7.0215</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-558B2F-4681-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-558B2F-4681-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-558B2F-4681-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-757575-3519-normal">
+      <LineStyle>
+        <color>ff757575</color>
+        <width>3.519</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-757575-3519-highlight">
+      <LineStyle>
+        <color>ff757575</color>
+        <width>5.2785</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-757575-3519">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-757575-3519-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-757575-3519-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-757575-3906-normal">
+      <LineStyle>
+        <color>ff757575</color>
+        <width>3.906</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-757575-3906-highlight">
+      <LineStyle>
+        <color>ff757575</color>
+        <width>5.859</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-757575-3906">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-757575-3906-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-757575-3906-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-757575-4100-normal">
+      <LineStyle>
+        <color>ff757575</color>
+        <width>4.1</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-757575-4100-highlight">
+      <LineStyle>
+        <color>ff757575</color>
+        <width>6.15</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-757575-4100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-757575-4100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-757575-4100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-757575-4875-normal">
+      <LineStyle>
+        <color>ff757575</color>
+        <width>4.875</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-757575-4875-highlight">
+      <LineStyle>
+        <color>ff757575</color>
+        <width>7.3125</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-757575-4875">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-757575-4875-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-757575-4875-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-757575-5069-normal">
+      <LineStyle>
+        <color>ff757575</color>
+        <width>5.069</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-757575-5069-highlight">
+      <LineStyle>
+        <color>ff757575</color>
+        <width>7.6035</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-757575-5069">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-757575-5069-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-757575-5069-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-757575-5263-nodesc-normal">
+      <LineStyle>
+        <color>ff757575</color>
+        <width>5.263</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-757575-5263-nodesc-highlight">
+      <LineStyle>
+        <color>ff757575</color>
+        <width>7.8945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-757575-5263-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-757575-5263-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-757575-5263-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-9C27B0-4100-normal">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>4.1</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-9C27B0-4100-highlight">
+      <LineStyle>
+        <color>ffb0279c</color>
+        <width>6.15</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-9C27B0-4100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-9C27B0-4100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-9C27B0-4100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A52714-4100-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>4.1</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-A52714-4100-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>6.15</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-A52714-4100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A52714-4100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A52714-4100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A52714-4100-nodesc-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>4.1</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-A52714-4100-nodesc-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>6.15</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-A52714-4100-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A52714-4100-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A52714-4100-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-A52714-5263-nodesc-normal">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>5.263</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-A52714-5263-nodesc-highlight">
+      <LineStyle>
+        <color>ff1427a5</color>
+        <width>7.8945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-A52714-5263-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-A52714-5263-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-A52714-5263-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-BDBDBD-3906-nodesc-normal">
+      <LineStyle>
+        <color>ffbdbdbd</color>
+        <width>3.906</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-BDBDBD-3906-nodesc-highlight">
+      <LineStyle>
+        <color>ffbdbdbd</color>
+        <width>5.859</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-BDBDBD-3906-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-BDBDBD-3906-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-BDBDBD-3906-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-BDBDBD-4875-nodesc-normal">
+      <LineStyle>
+        <color>ffbdbdbd</color>
+        <width>4.875</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-BDBDBD-4875-nodesc-highlight">
+      <LineStyle>
+        <color>ffbdbdbd</color>
+        <width>7.3125</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-BDBDBD-4875-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-BDBDBD-4875-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-BDBDBD-4875-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-E65100-5263-nodesc-normal">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>5.263</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-E65100-5263-nodesc-highlight">
+      <LineStyle>
+        <color>ff0051e6</color>
+        <width>7.8945</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-E65100-5263-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-E65100-5263-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-E65100-5263-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-F48FB1-4100-normal">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>4.1</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-F48FB1-4100-highlight">
+      <LineStyle>
+        <color>ffb18ff4</color>
+        <width>6.15</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-F48FB1-4100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-F48FB1-4100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-F48FB1-4100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFD600-4100-normal">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>4.1</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-FFD600-4100-highlight">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>6.15</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-FFD600-4100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFD600-4100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFD600-4100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFD600-4294-nodesc-normal">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>4.294</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFD600-4294-nodesc-highlight">
+      <LineStyle>
+        <color>ff00d6ff</color>
+        <width>6.441</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFD600-4294-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFD600-4294-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFD600-4294-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>خط یک - Line 1</name>
+      <Placemark>
+        <name>خط یک مترو تهران - شاخه فرودگاه امام و شهر آفتاب Line1 to IKIA</name>
+        <description>Line1 to Imam Khomeini International Airport  </description>
+        <styleUrl>#line-A52714-4100</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.4335161,35.8046834,0
+            51.4342028,35.7931273,0
+            51.4376947,35.7729241,0
+            51.4438745,35.7624777,0
+            51.4337046,35.7598841,0
+            51.4269062,35.7564288,0
+            51.4257712,35.7484776,0
+            51.4268012,35.7312002,0
+            51.4273161,35.7243719,0
+            51.4261145,35.715409,0
+            51.4252562,35.707046,0
+            51.4257054,35.7015588,0
+            51.4244997,35.6932016,0
+            51.4198914,35.6854667,0
+            51.4174881,35.6780069,0
+            51.4160532,35.6681852,0
+            51.4140255,35.6575769,0
+            51.4163429,35.65083,0
+            51.4148334,35.640644,0
+            51.4157347,35.62942,0
+            51.4197557,35.6103441,0
+            51.4223414,35.5948013,0
+            51.4001589,35.5598014,0
+            51.3817365,35.5475505,0
+            51.3735783,35.5446458,0
+            51.3692867,35.5218232,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>خط 8 مترو تهران</name>
+        <styleUrl>#line-558B2F-4681-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.3817365,35.5475505,0
+            51.348797,35.5402485,0
+            51.1544834,35.4078097,0
+            50.9782513,35.4635317,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>تجریش میدان قدس - خط یک - Tajrish‏</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4335161,35.8046834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>قیطریه - Gheytariyeh‏</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4342028,35.7931273,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>صدر - Sadr</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4356348,35.7853186,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>قلهک - Gholhak</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4376947,35.7729241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شریعتی - Shariati</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4438745,35.7624777,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>میرداماد - MirDamad</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4335171,35.7605012,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>حقانی - Haqhani</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4269062,35.7564288,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>همت - Hemmat</name>
+        <description>فقط دسترسی به شمال بزرگراه همت است </description>
+        <styleUrl>#icon-1739-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.4257712,35.7484776,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مصلی شمال - Mosalla</name>
+        <description>بزرگراه رسالت</description>
+        <styleUrl>#icon-1739-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.4268012,35.7403967,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>بهشتی - Beheshti‏</name>
+        <description>جنوب مصلی</description>
+        <styleUrl>#icon-1719-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            51.4268012,35.7312002,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مفتح - خیابان مطهری - Mofatteh</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4273161,35.7243719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>هفت تیر - Haft-e Tir - 7th of Tir</name>
+        <styleUrl>#icon-1719-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4261145,35.715409,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>طالقانی - Taleghani</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4252562,35.707046,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>سعدی - Saadi</name>
+        <description>خ جمهوری - مخبرالدوله استقلال</description>
+        <styleUrl>#icon-1739-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.4244997,35.6932016,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه امام خمینی Imam Khomeini Central Station‏</name>
+        <description>جنوب لاله زار- دسترسی با تاکسی به بازار بزرگ تهران - سردر باغ ملی - جنوب خ فردوسی</description>
+        <styleUrl>#icon-1719-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            51.4198914,35.6854667,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>پانزده خرداد - گلوبندک - 15th Khourdad</name>
+        <description>چهارراه گلوبندک - راسته طلا فروشان - کاخ گلستان - رادیو تهران - سبزه میدان - ناصرخسرو - شمس العماره - کوچه مری</description>
+        <styleUrl>#icon-1739-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.4174881,35.6780069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>خیام - جنوب بازار بزرگ تهران - Khayyam</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4167935,35.6731239,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>میدان محمدیه Mohammadiyeh Sq. ‏</name>
+        <description>تقاطع خط 1 و 7</description>
+        <styleUrl>#icon-1719-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            51.4160532,35.6681852,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شوش - Shoush</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4140255,35.6575769,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ترمینال جنوب - South Bus Terminal</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4163429,35.65083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>خزانه - Khazaneh</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4148334,35.640644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>علی آباد - Ali Abaad</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4157347,35.62942,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>جوانمرد قصاب - JavanMard Ghassab</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4197557,35.6103441,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شهر ری - Shahr-e Rey</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4223414,35.5948013,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>باقر شهر - باقرآباد - BagherShahr</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4001589,35.5598014,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شاهد Shahed‏ - (تقاطع 1 و 8)</name>
+        <styleUrl>#icon-1719-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3817365,35.5475505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>حرم مطهر- Haram Motahar</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3735783,35.5446458,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>کهریزک - خط یک - Kahrizak</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3692867,35.5218232,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شهر آفتاب - Aftab City</name>
+        <styleUrl>#icon-1739-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.348797,35.5402485,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>فرودگاه امام خمینی Imam Khomeini Airport</name>
+        <styleUrl>#icon-1504-558B2F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.1544834,35.4078097,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو پرند - خط یک - Parand City</name>
+        <description>در کنار ایستگاه قطار پرند (خط تهران - قم)</description>
+        <styleUrl>#icon-1899-558B2F</styleUrl>
+        <Point>
+          <coordinates>
+            50.9782513,35.4635317,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>هشدار : اینجا مترو ایستگاه تقاطعی ندارد</name>
+        <styleUrl>#icon-1541-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4016552,35.6864357,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>هشدار - ورودی ایستگاه همت فقط برای شمال بزرگراه و از طریق پل هوایی در دسترس است - در جنوب بزرگراه هیچ دسترسی ای به ایستگاه مترو همت وجود ندارد</name>
+        <styleUrl>#icon-1541-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4263332,35.7488045,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>خط 2</name>
+      <Placemark>
+        <name>خط دو مترو تهران - Line2‏</name>
+        <description>شرقی غربی</description>
+        <styleUrl>#line-3949AB-3906</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.5467877,35.7297376,0
+            51.5316815,35.7310614,0
+            51.5164757,35.733082,0
+            51.5048691,35.7345095,0
+            51.494784,35.735241,0
+            51.4843556,35.7334993,0
+            51.4759361,35.7265637,0
+            51.4644244,35.7182589,0
+            51.4529231,35.709478,0
+            51.4457133,35.7022296,0
+            51.4327426,35.6918352,0
+            51.4269061,35.6884892,0
+            51.4198914,35.6854667,0
+            51.4100009,35.6864571,0
+            51.3992292,35.6872588,0
+            51.3882792,35.6909884,0
+            51.3785481,35.6949966,0
+            51.3636679,35.7006271,0
+            51.3535301,35.7058545,0
+            51.345117,35.7145823,0
+            51.3308691,35.7176834,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>صادقیه - (تقاطع 2و5) - Sadeghiyeh</name>
+        <description>- غرب تهران</description>
+        <styleUrl>#icon-1719-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            51.3308691,35.7176834,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>طرشت - Tarasht</name>
+        <styleUrl>#icon-1739-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.345117,35.7145823,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>دانشگاه شریف - Sharif University </name>
+        <styleUrl>#icon-1739-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3535301,35.7058545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شادمان خط 2و4 - Shademan</name>
+        <description>(خ آزادی - بهبودی - آذربایجان) </description>
+        <styleUrl>#icon-1719-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            51.3636679,35.7006271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>نواب صفوی Navvab Safavi‏</name>
+        <description>خیابان آذربایجان</description>
+        <styleUrl>#icon-1719-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            51.3804364,35.6942298,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>میدان حر - Hour Sq.</name>
+        <styleUrl>#icon-1739-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3882792,35.6909884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>دانشگاه امام علی - Imam Ali University </name>
+        <styleUrl>#icon-1739-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3992292,35.6872588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>حسن آباد (حافظ-امام) - HasanAbaad</name>
+        <styleUrl>#icon-1739-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4100009,35.6864571,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ملت - Mellat</name>
+        <styleUrl>#icon-1739-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4269061,35.6884892,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>بهارستان - Baharestan</name>
+        <styleUrl>#icon-1739-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4327426,35.6918352,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>دروازه شمیران - تقاطع 2 و 4 - Darvazeh Shemiran</name>
+        <styleUrl>#icon-1739-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4378924,35.6990846,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>امام حسین ع - تقاطع خط 6 و 2 - Imam Hosain </name>
+        <styleUrl>#icon-1719-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4457133,35.7022296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شهید مدنی - Madani</name>
+        <styleUrl>#icon-1739-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4529231,35.709478,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>سبلان - Sabalan</name>
+        <styleUrl>#icon-1739-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4644244,35.7182589,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>فدک - Fadak</name>
+        <styleUrl>#icon-1739-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4759361,35.7265637,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>گلبرگ - خ جانبازان - Golbarg</name>
+        <styleUrl>#icon-1739-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4843556,35.7334993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>سرسبز - آیت - Ayat</name>
+        <styleUrl>#icon-1739-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.494784,35.735241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>دانشگاه علم و صنعت - Elm-o Sanat University</name>
+        <styleUrl>#icon-1739-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.5048691,35.7345095,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شهید باقری - Bagheri</name>
+        <styleUrl>#icon-1739-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.5164757,35.733082,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تهرانپارس حجربن عدی - TehranPars</name>
+        <styleUrl>#icon-1739-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.5316815,35.7310614,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>فرهنگسرا - خط 2 - FarhangSara</name>
+        <styleUrl>#icon-1899-1A237E-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.5467877,35.7297376,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>خط 3</name>
+      <Placemark>
+        <name>خط سه مترو تهران - Line3‏</name>
+        <description>بلندترین خط مترو خاور میانه</description>
+        <styleUrl>#line-0288D1-4100</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.3348141,35.6274121,0
+            51.3468843,35.6339659,0
+            51.3602738,35.6385699,0
+            51.3690286,35.6447081,0
+            51.3731515,35.6527196,0
+            51.3876139,35.6584035,0
+            51.3975703,35.6597634,0
+            51.3985627,35.6673156,0
+            51.4015423,35.68103,0
+            51.4053297,35.7011057,0
+            51.408321,35.720733,0
+            51.4172904,35.7280146,0
+            51.4268011,35.7312842,0
+            51.4356152,35.731986,0
+            51.4445416,35.7316029,0
+            51.4584462,35.7353304,0
+            51.46336,35.7436564,0
+            51.4648867,35.7607702,0
+            51.4736791,35.7716703,0
+            51.4792048,35.7795677,0
+            51.4782251,35.7908827,0
+            51.4837779,35.8003977,0
+            51.5081518,35.7973613,0
+            51.5208997,35.7986657,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>قائم - Ghaem‏</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.5208997,35.7986657,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>محلاتی - Mahallati</name>
+        <description>- مینی سیتی - بزرگراه ارتش</description>
+        <styleUrl>#icon-1739-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            51.5081518,35.7973613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>نوبنیاد - NouBonyad</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.478225,35.7907843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>حسین آباد - HousainAbad</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4792048,35.7795677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>هروی - پاسداران - Heravi Pasdaran</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4736791,35.7716703,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شهید زین الدین - Zeyn-od-Din</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4648867,35.7607702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>خواجه عبدالله انصاری - بزرگراه رسالت - Khaje Abdolah Ansari</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.46336,35.7436564,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>صیاد شیرازی - مسیل باختر - Sayad Shirazi</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4584462,35.7353304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>قدوسی - خ شریعتی - Ghouddosi</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4445416,35.7316029,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>سهروردی - Sohrevardi</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4356152,35.731986,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>میرزا شیرازی - سینما آزادی - Mirza-e Shirazi</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4172904,35.7280146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>میدان جهاد - فاطمی - یوسف آباد - Jahaad - Fatemi</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.408321,35.720733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>میدان ولیعصر عج - ValiAsr Sq. Aj</name>
+        <description>(بلوار کشاورز) - تقاطع خط 6 و خط 3</description>
+        <styleUrl>#icon-1719-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            51.4069478,35.7115691,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تئاترشهر (چهارراه ولیعصر) (خط 4 و 3) - Theater-e Shahr</name>
+        <styleUrl>#icon-1719-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4053297,35.7011057,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>منیریه (نزدیک بازار تهران) Moniriyeh</name>
+        <description>دسترسی به بازار با تاکسی</description>
+        <styleUrl>#icon-1739-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            51.4015423,35.68103,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مهدیه (رازی) (تقاطع 3 و 7) Mahdiyeh</name>
+        <styleUrl>#icon-1719-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3985627,35.6673156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>راه آهن تهران - اول خ ولیعصر - Tehran railway station - Hbf‏</name>
+        <styleUrl>#icon-1716-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3975703,35.6597634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>جوادیه - Javadiyeh</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3876139,35.6584035,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>زمزم - ZanZam</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3731515,35.6527196,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شهرک شریعتی (قلعه مرغی)  - Shahrak SRT</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3690286,35.6447081,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>عبدل آباد - AbdolAbad</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3602738,35.6385699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>نعمت آباد - Nemat Abad</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3468843,35.6339659,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>آزادگان - Azadegan‏</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3348141,35.6273283,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اقدسیه - Aghdasiyeh</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4837779477239,35.8003977454386,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>خط 4</name>
+      <Placemark>
+        <name>خط چهار مترو تهران - Line4‏</name>
+        <description>خط خیابان انقلاب آزادی</description>
+        <styleUrl>#line-FFD600-4100</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.3072614,35.7307232,0
+            51.3019608,35.7177299,0
+            51.3076307,35.7057059,0
+            51.3201727,35.6989624,0
+            51.3332086,35.7010012,0
+            51.344667,35.7001299,0
+            51.3636679,35.7006271,0
+            51.4053297,35.7011057,0
+            51.4257054,35.7015588,0
+            51.4378924,35.6990846,0
+            51.447484,35.6904297,0
+            51.4565867,35.690593,0
+            51.4678842,35.6909067,0
+            51.4774302,35.6916038,0
+            51.4886102,35.6927983,0
+            51.5003475,35.6988278,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>خط حاشیه چهار برای فرودگاه - Line4 Mehrabad Airport</name>
+        <styleUrl>#line-FFD600-4294-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.3201727,35.6989624,0
+            51.3230805,35.6923841,0
+            51.3310628,35.6885935,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>علامه محمد تقی جعفری </name>
+        <description>افتتاح اردیبهشت 1402</description>
+        <styleUrl>#icon-1899-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            51.3072614,35.7307232,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ارم سبز - (تقاطع 5و4) Eram-e Sabz‏</name>
+        <styleUrl>#icon-1719-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3019608,35.7177299,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اکباتان - Ekbatan</name>
+        <styleUrl>#icon-1739-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3076307,35.7057059,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>بیمه - اول مسیر فرودگاه - Bimeh</name>
+        <styleUrl>#icon-1719-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3201727,35.6989624,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[فرودگاه مهرآباد ترمینال 1 و 2 - Mehrabad Airport 1st&2nd Terminal ]]></name>
+        <description>هما - ایران ایر</description>
+        <styleUrl>#icon-1504-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            51.3230805,35.6923841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[فرودگاه مهراباد - ترمینال 4 و 6 - Mehrabad Airport 4th&6th Terminal]]></name>
+        <description>ماهان</description>
+        <styleUrl>#icon-1504-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            51.3310628,35.6885935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>میدان آزادی - Azadi Sq. ‏</name>
+        <description>ترمینال اتوبوس بین شهری (ترمینال غرب) </description>
+        <styleUrl>#icon-1739-FFD600</styleUrl>
+        <Point>
+          <coordinates>
+            51.3332086,35.7010012,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>استاد معین - Ostad Moiin</name>
+        <styleUrl>#icon-1739-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.344667,35.7001299,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>حبیب الله - Habibolah</name>
+        <styleUrl>#icon-1739-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3560395,35.7006527,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه توحید (چهارراه نواب) (تقاطع خط4 و خط7) - Tohid‏</name>
+        <styleUrl>#icon-1719-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3790232,35.7007572,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>میدان انقلاب - Enghelab Sq.</name>
+        <styleUrl>#icon-1739-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3900089,35.7012103,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>فردوسی - Ferdousi Sq.</name>
+        <styleUrl>#icon-1739-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4185047,35.7014194,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>دروازه دولت (خ انقلاب) - Darvazeh Doulat‏</name>
+        <styleUrl>#icon-1719-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4257054,35.7015588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>میدان شهدا (خ پیروزی) - Shohada Sq.</name>
+        <styleUrl>#icon-1739-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.447484,35.6904297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیخ الرییس (ابن سینا) - Seykh ol Raiis Ebn-e Sina</name>
+        <styleUrl>#icon-1739-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4565867,35.690593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>پیروزی - Piroozi</name>
+        <styleUrl>#icon-1739-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4678842,35.6909067,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>نبرد - Nabard</name>
+        <styleUrl>#icon-1739-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4774302,35.6916038,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>نیروی هوایی - Niroo Havaii </name>
+        <styleUrl>#icon-1739-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4886102,35.6927983,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>کلاهدوز بصیر - Kolahdooz‏</name>
+        <styleUrl>#icon-1899-FFD600-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.5003475,35.6988278,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>خط 5 (تهران کرج)</name>
+      <Placemark>
+        <name>خط پنج مترو تهران - Line5‏</name>
+        <description><![CDATA[Tehran Karaj Hashtgerd Line<br>خط مترو تهران کرج هشتگرد‏]]></description>
+        <styleUrl>#line-0F9D58-3906</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            50.7196745,35.9591728,0
+            50.7923591,35.9172527,0
+            50.8223154,35.9166401,0
+            50.845301,35.9090255,0
+            50.8613942,35.901437,0
+            50.8870229,35.8819546,0
+            50.8993156,35.872421,0
+            50.9106086,35.8573595,0
+            50.9116604,35.8342089,0
+            50.920639,35.8271212,0
+            50.9325346,35.825043,0
+            50.9644713,35.8016841,0
+            51.0024804,35.7872034,0
+            51.0460824,35.7668701,0
+            51.0816396,35.7511292,0
+            51.1511624,35.7447205,0
+            51.1968243,35.7254913,0
+            51.2435162,35.71699,0
+            51.2810315,35.7167237,0
+            51.3019608,35.7177299,0
+            51.3308691,35.7176834,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>ورزشگاه آزادی</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.2810315,35.7167237,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>چیتگر</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.2435162,35.71699,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایران خودرو</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.1968243,35.7254913,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>وردآورد</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.1511624,35.7447205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>گرم دره</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.0816396,35.7511292,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اتمسفر - البرز</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.0460824,35.7668701,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>کرج</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.0024804,35.7872034,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>محمد شهر (ماهدشت)ا</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            50.9644713,35.8016841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>گلشهر</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            50.9325346,35.825043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شهید قاسم سلیمانی (هشتگرد) </name>
+        <styleUrl>#icon-1899-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            50.7196745,35.9591728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شهید فخری زاده  - ماموت</name>
+        <styleUrl>#icon-1739-006064-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            50.7923591,35.9172527,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>خط 7</name>
+      <Placemark>
+        <name>خط هفت مترو تهران - Line7‏</name>
+        <description><![CDATA[این خط در حال تکمیل است - فقط ایستگاه های راه اندازی شده روی نقشه ثبت شده است<br>(بسیج جنوب شرق - میدان صنعت شمال غرب)]]></description>
+        <styleUrl>#line-9C27B0-4100</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.355851,35.7769794,0
+            51.3658503,35.7671604,0
+            51.3670584,35.7544122,0
+            51.378048,35.7486315,0
+            51.3820311,35.7326568,0
+            51.3815265,35.7242468,0
+            51.3785547,35.7067425,0
+            51.3790232,35.7007572,0
+            51.3804364,35.6942298,0
+            51.381971,35.6819311,0
+            51.3807961,35.6731724,0
+            51.3876174,35.6679954,0
+            51.3985627,35.6673156,0
+            51.4160532,35.6681852,0
+            51.4276306,35.6692486,0
+            51.4373272,35.6699691,0
+            51.4459515,35.6680596,0
+            51.4622657,35.6680602,0
+            51.4755063,35.6676307,0
+            51.4904577,35.6665727,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>میدان کتاب (فرحزاد)</name>
+        <description>مرکز خرید اوپال</description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            51.3556278,35.777099,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>دادمان</name>
+        <styleUrl>#icon-1739-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3658503,35.7671604,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>میدان صنعت (شهرک غرب)</name>
+        <styleUrl>#icon-1739-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3670584,35.7544122,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>برج میلاد</name>
+        <styleUrl>#icon-1739-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.378048,35.7486315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>بوستان گفتگو</name>
+        <styleUrl>#icon-1739-9C27B0-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3820311,35.7326568,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>دانشگاه تربیت مدرس TMU (پل نصر)(پل گیشا)</name>
+        <description>تقاطع خط 6 و 7</description>
+        <styleUrl>#icon-1719-F57C00</styleUrl>
+        <Point>
+          <coordinates>
+            51.3815265,35.7242468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مدافعان سلامت (میدان توحید)</name>
+        <description>بیمارستان امام خمینی</description>
+        <styleUrl>#icon-1739-9C27B0</styleUrl>
+        <Point>
+          <coordinates>
+            51.3785547,35.7067425,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>رودکی - خیابان امام خمینی سپه</name>
+        <styleUrl>#icon-1739-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3811789,35.6879357,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>کمیل</name>
+        <styleUrl>#icon-1739-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.381971,35.6819311,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>بریانک - قزوین</name>
+        <styleUrl>#icon-1739-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3807961,35.6731724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>هلال احمر</name>
+        <styleUrl>#icon-1739-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3876174,35.6679954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>میدان قیام</name>
+        <styleUrl>#icon-1739-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4373272,35.6699691,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مولوی</name>
+        <styleUrl>#icon-1739-3949AB-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4276306,35.6692486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>دروازه دولاب (سعیدی)</name>
+        <styleUrl>#icon-1739-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4622657,35.6680602,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>بسیج (انتهای محلاتی)</name>
+        <styleUrl>#icon-1899-673AB7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4904577,35.6665727,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>هشدار - این ایستگاه افتتاح نشده و خط 6 و 7 در اینجا تقاطع ندارند</name>
+        <styleUrl>#icon-1541-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4477784,35.6693725,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>BRT تهران</name>
+      <Placemark>
+        <name>BRT 1‏ (انقلاب آزادی) چهار راه تهرانپارس تا پایانه آزادی</name>
+        <description>خط ۱ اتوبوسرانی BRT تهران با کد ۱۰۱ (قرمز رنگ) از چهار راه تهرانپارس تا پایانه آزادی</description>
+        <styleUrl>#line-757575-3519</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.3340406,35.7018782,0
+            51.3400488,35.6984628,0
+            51.3444261,35.700763,0
+            51.3784151,35.7016691,0
+            51.4055376,35.7019479,0
+            51.4307718,35.7027146,0
+            51.4463072,35.7029237,0
+            51.456521,35.7046661,0
+            51.5089692,35.7211874,0
+            51.5195989,35.7236725,0
+            51.5199423,35.722244,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>BRT 2‏ (بسیج) پایانه خاوران تا پایانه آزادی</name>
+        <description>خط ۲ اتوبوسرانی BRT تهران با کد ۱۰۲ (بنفش رنگ) از پایانه خاوران تا پایانه آزادی</description>
+        <styleUrl>#line-757575-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.3381907,35.6983515,0
+            51.3397357,35.6950056,0
+            51.3421389,35.6802265,0
+            51.3476321,35.6718598,0
+            51.3678882,35.6669788,0
+            51.3757417,35.6688266,0
+            51.3956545,35.6664558,0
+            51.4159106,35.6672926,0
+            51.4280128,35.6685826,0
+            51.43651,35.6691055,0
+            51.4458013,35.6688266,0
+            51.4455009,35.6656365,0
+            51.451313,35.6642422,0
+            51.4566868,35.6603545,0
+            51.4619312,35.6582797,0
+            51.4761363,35.6426742,0
+            51.4774666,35.6434414,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>BRT 3‏ پایانه خاوران تا پایانه علم و صنعت</name>
+        <description>خط ۳ اتوبوسرانی BRT تهران با کد ۱۰۳ (آبی پر رنگ) از پایانه خاوران تا پایانه علم و صنعت</description>
+        <styleUrl>#line-424242-5069</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.5214412,35.7226786,0
+            51.5216987,35.7214243,0
+            51.5144889,35.7211456,0
+            51.5053909,35.7125044,0
+            51.4998119,35.6984953,0
+            51.4933746,35.6925006,0
+            51.4925163,35.6796036,0
+            51.4924304,35.6741653,0
+            51.4902847,35.661056,0
+            51.4865939,35.650595,0
+            51.4847057,35.6446665,0
+            51.4843623,35.6408301,0
+            51.4821307,35.6382492,0
+            51.4775817,35.6415974,0
+            51.478955,35.6425739,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>BRT 4‏ (ولیعصر) پایانه جنوب تا پایانه شهید افشار</name>
+        <styleUrl>#line-424242-5069-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.4180872,35.7914143,0
+            51.4177492,35.7904874,0
+            51.4097079,35.792241,0
+            51.4029273,35.7938422,0
+            51.3991508,35.7925891,0
+            51.3916835,35.7877155,0
+            51.3875636,35.7707252,0
+            51.3873061,35.7569353,0
+            51.384144,35.7433985,0
+            51.3835574,35.7294437,0
+            51.3815265,35.7242468,0
+            51.3780364,35.7172935,0
+            51.3772639,35.7064914,0
+            51.3790232,35.7007572,0
+            51.3786802,35.6968379,0
+            51.3801685,35.6818613,0
+            51.3817271,35.6683585,0
+            51.3820061,35.6645233,0
+            51.3884863,35.6616991,0
+            51.3953313,35.6537838,0
+            51.3982924,35.6500176,0
+            51.4187737,35.6474805,0
+            51.4189455,35.6512992,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>BRT 5‏ (رسالت سلیمانی) پایانه بیهقی تا پایانه علم و صنعت</name>
+        <description>خط ۵ اتوبوسرانی BRT تهران با کد ۱۰۵ (صورتی رنگ) از پایانه بیهقی تا پایانه علم و صنعت</description>
+        <styleUrl>#line-757575-4875</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.4181576,35.7380443,0
+            51.4191446,35.7403781,0
+            51.4301739,35.7405523,0
+            51.4391861,35.7432692,0
+            51.4530907,35.7415276,0
+            51.465622,35.740622,0
+            51.4724884,35.7395073,0
+            51.4870797,35.7368599,0
+            51.4949437,35.7365893,0
+            51.5070793,35.735154,0
+            51.5074859,35.7331151,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>BRT 6 ‏ (صدر) پایانه لاله (انتهای ارتش)  تا پایانه شهید افشار (پارک وی)</name>
+        <description>خط ۶ اتوبوسرانی BRT تهران با کد ۱۰۶ (زرد رنگ) از پایانه لاله تا پایانه شهید افشار</description>
+        <styleUrl>#line-757575-4100</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.4184143,35.7913062,0
+            51.4179744,35.7903141,0
+            51.4200665,35.7887563,0
+            51.4210858,35.7869721,0
+            51.4220998,35.7849575,0
+            51.4252755,35.781685,0
+            51.4278504,35.7779945,0
+            51.4327857,35.7802575,0
+            51.435189,35.7830079,0
+            51.4410897,35.7852884,0
+            51.4480206,35.786733,0
+            51.4570329,35.7917458,0
+            51.4654014,35.7921637,0
+            51.4710436,35.7912256,0
+            51.4789716,35.7904427,0
+            51.4829167,35.7963904,0
+            51.4872918,35.8019201,0
+            51.5304374,35.7923924,0
+            51.5308151,35.7932862,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>BRT 7 خیابان ولیعصر - تجریش راه آهن (معین)</name>
+        <styleUrl>#line-757575-5263-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.4290127,35.8059813,0
+            51.4290771,35.8069732,0
+            51.4234981,35.8065208,0
+            51.4206656,35.8038408,0
+            51.4187774,35.8002557,0
+            51.4172324,35.7950345,0
+            51.415945,35.7897085,0
+            51.4150867,35.785531,0
+            51.4142713,35.7823629,0
+            51.4119109,35.7719526,0
+            51.4111814,35.7685403,0
+            51.4099797,35.7632821,0
+            51.4099368,35.7575013,0
+            51.4114818,35.7503617,0
+            51.4116105,35.7468787,0
+            51.4105805,35.7427338,0
+            51.4094647,35.7390067,0
+            51.4095935,35.7356277,0
+            51.4128121,35.7289739,0
+            51.4111814,35.724619,0
+            51.4088425,35.7191838,0
+            51.4077846,35.7115691,0
+            51.4059671,35.7008371,0
+            51.4047869,35.6950866,0
+            51.4038,35.6910436,0
+            51.4032206,35.6871832,0
+            51.4020833,35.6810744,0
+            51.4010426,35.6758367,0
+            51.400474,35.672089,0
+            51.3995084,35.6667635,0
+            51.3981351,35.6597901,0
+            51.3995513,35.6594066,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>BRT 8 خاوران - ترمینال جنوب</name>
+        <styleUrl>#line-BDBDBD-4875-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.4777473,35.6425687,0
+            51.4762882,35.6414527,0
+            51.4795498,35.6375116,0
+            51.4672331,35.6413829,0
+            51.4574484,35.6448008,0
+            51.4197687,35.647521,0
+            51.4195434,35.6511303,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>BRT 9  - بزرگراه امام علی - لاله ارتش - تا شهر ری جوانمرد قصاب</name>
+        <styleUrl>#line-BDBDBD-3906-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.5314572,35.7930905,0
+            51.5310388,35.7917067,0
+            51.5081518,35.7973613,0
+            51.4996141,35.7994256,0
+            51.4939921,35.7989035,0
+            51.4914601,35.7918372,0
+            51.4911597,35.7888783,0
+            51.4901298,35.7789563,0
+            51.4860957,35.7697642,0
+            51.4832633,35.7450205,0
+            51.484186,35.7412413,0
+            51.4681571,35.722499,0
+            51.4642947,35.7202691,0
+            51.4567202,35.7125338,0
+            51.4579218,35.7040311,0
+            51.4564627,35.6967125,0
+            51.4580935,35.6864653,0
+            51.463887,35.6713709,0
+            51.4640158,35.6652695,0
+            51.4611834,35.6597256,0
+            51.4619129,35.6504501,0
+            51.4629858,35.6457422,0
+            51.4641874,35.6369882,0
+            51.4649599,35.6228612,0
+            51.4712256,35.6193727,0
+            51.4683073,35.6148025,0
+            51.4563339,35.6107554,0
+            51.4546923,35.6006017,0
+            51.4513343,35.5989617,0
+            51.4428371,35.6056089,0
+            51.4324301,35.6079641,0
+            51.4199846,35.6101884,0
+            51.4202421,35.6116625,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>BRT 10‏ - آزادگان به دانشگاه علوم تحقیقات</name>
+        <styleUrl>#line-424242-4681-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.3168669,35.7816796,0
+            51.3160733,35.7807225,0
+            51.320161,35.7780331,0
+            51.3357068,35.7776235,0
+            51.3375307,35.7682224,0
+            51.3356743,35.7606915,0
+            51.3335339,35.7543229,0
+            51.3313938,35.7511931,0
+            51.331507,35.7476951,0
+            51.332693,35.7438487,0
+            51.3342516,35.7288273,0
+            51.3352091,35.7253021,0
+            51.3353723,35.7200274,0
+            51.3369129,35.6996926,0
+            51.3390148,35.6946438,0
+            51.3410304,35.6810906,0
+            51.3469943,35.6715454,0
+            51.3433674,35.6637738,0
+            51.3540217,35.6382487,0
+            51.3342047,35.6284153,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>BRT گردشی - 422 - بهشتی مطهری سید خندان</name>
+        <description>این خط مسیر خیابان بهشتی و مطهری را به صورت برعکس حرکت میکند و از خیابان مطهری به پل سید خندان میرود</description>
+        <styleUrl>#line-757575-3906</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.4453741,35.741643,0
+            51.4451273,35.7422091,0
+            51.443872,35.742122,0
+            51.4442261,35.7390741,0
+            51.4461787,35.7388564,0
+            51.4455779,35.7363046,0
+            51.4449771,35.7280049,0
+            51.4443414,35.7260517,0
+            51.4438988,35.7269205,0
+            51.4453217,35.7264687,0
+            51.4443414,35.7260517,0
+            51.4429493,35.7237458,0
+            51.4394517,35.7243729,0
+            51.4355464,35.724669,0
+            51.4319576,35.7243512,0
+            51.4281542,35.7243817,0
+            51.4255257,35.7241638,0
+            51.4202686,35.7241813,0
+            51.4209552,35.724717,0
+            51.4209821,35.723589,0
+            51.4202686,35.7241813,0
+            51.4170714,35.7240245,0
+            51.4151831,35.7276304,0
+            51.4132948,35.7268117,0
+            51.411192,35.7236761,0
+            51.4156337,35.7240419,0
+            51.4148398,35.7245471,0
+            51.4151241,35.7233146,0
+            51.4156337,35.7240419,0
+            51.4163419,35.7277175,0
+            51.4194774,35.7285928,0
+            51.4189919,35.7278002,0
+            51.4186499,35.7290326,0
+            51.4194774,35.7285928,0
+            51.4206119,35.7287626,0
+            51.4259763,35.7304696,0
+            51.429946,35.7309573,0
+            51.4337655,35.7306876,0
+            51.4379282,35.7310795,0
+            51.4436145,35.7310097,0
+            51.4462753,35.7363918,0
+            51.4468332,35.738804,0
+            51.4471765,35.7417388,0
+            51.4455457,35.7421046,0
+            51.4461009,35.7423636,0
+            51.4459172,35.7415353,0
+            51.4455457,35.7421046,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>هشدار : اینجا خطوط بی آر تی ایستگاه تقاطعی ندارند</name>
+        <styleUrl>#icon-1541-BDBDBD-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4816929,35.7368318,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>هشدار : اینجا خطوط بی آر تی ایستگاه تقاطعی ندارند</name>
+        <styleUrl>#icon-1541-BDBDBD-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4455227,35.7430254,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>هشدار : اینجا خطوط بی آر تی ایستگاه تقاطعی ندارند</name>
+        <styleUrl>#icon-1541-BDBDBD-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3806987,35.6690197,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>خط 6</name>
+      <Placemark>
+        <name>خط شش مترو تهران - Line6‏</name>
+        <description><![CDATA[این خط در حال تکمیل است و فقط ایستگاه های افتتاح شده بر روی مسیر درج شده است!<br>شمال غربی به جنوب شرقی]]></description>
+        <styleUrl>#line-F48FB1-4100</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.4646676,35.6191107,0
+            51.4485006,35.6329805,0
+            51.4441035,35.6452884,0
+            51.4446989,35.6525035,0
+            51.4448007,35.665538,0
+            51.4471272,35.6827034,0
+            51.447484,35.6904297,0
+            51.4457133,35.7022296,0
+            51.4393139,35.7161758,0
+            51.4261145,35.715409,0
+            51.4069478,35.7115691,0
+            51.3933602,35.7081397,0
+            51.3893428,35.7147386,0
+            51.3815265,35.7242468,0
+            51.3696222,35.7293519,0
+            51.3593375,35.7344812,0
+            51.3464051,35.7350823,0
+            51.3339781,35.7350649,0
+            51.3199474,35.7368741,0
+            51.3019267,35.7401569,0
+            51.2947037,35.7456803,0
+            51.288151,35.7539255,0
+            51.2838272,35.7633222,0
+            51.2806864,35.7693726,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>دولت آباد</name>
+        <styleUrl>#icon-1899-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4646676,35.6191107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>کیانشهر</name>
+        <styleUrl>#icon-1739-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4485006,35.6329805,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>بعثت</name>
+        <styleUrl>#icon-1739-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4441035,35.6452884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>رضایی</name>
+        <styleUrl>#icon-1739-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4446989,35.6525035,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>میدان خراسان - خط 6</name>
+        <styleUrl>#icon-1739-FF5252-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4448007,35.665538,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>امیر کبیر</name>
+        <styleUrl>#icon-1739-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4471272,35.6827034,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>میدان شهدا - تقاطع خط 4 و 6 - Shohada Sq.</name>
+        <styleUrl>#icon-1719-F57C00-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.447484,35.6904297,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>بهار شیراز</name>
+        <styleUrl>#icon-1739-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.4393139,35.7161758,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>بوستان لاله</name>
+        <styleUrl>#icon-1739-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3933602,35.7081397,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>خیابان کارگر</name>
+        <styleUrl>#icon-1739-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3893428,35.7147386,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شهرک آزمایش</name>
+        <styleUrl>#icon-1739-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3696222,35.7293519,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مرزداران</name>
+        <description>مرزداران</description>
+        <styleUrl>#icon-1739-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            51.3593375310302,35.7344812216729,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>یادگار امام</name>
+        <styleUrl>#icon-1739-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3464051,35.7350823,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اشرفی اصفهانی</name>
+        <styleUrl>#icon-1739-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3339781,35.7350649,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ستاری</name>
+        <styleUrl>#icon-1739-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3199474,35.7368741,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>آیت الله کاشانی</name>
+        <styleUrl>#icon-1739-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.3019267,35.7401569,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شهر زیبا</name>
+        <description>میدان کودک شهر زیبا</description>
+        <styleUrl>#icon-1739-C2185B</styleUrl>
+        <Point>
+          <coordinates>
+            51.2947037,35.7456803,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شهران (بزرگراه همت)</name>
+        <styleUrl>#icon-1739-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.288151,35.7539255,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شهدای کن</name>
+        <styleUrl>#icon-1739-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.2838272,35.7633222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>آرمان وردی (کوهسار)</name>
+        <styleUrl>#icon-1899-C2185B-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.2806864,35.7693726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>IRAN</name>
+      <Placemark>
+        <name>خط 1 مترو اصفهان</name>
+        <styleUrl>#line-A52714-4100-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            51.6029947,32.7152021,0
+            51.6167229,32.7134165,0
+            51.6312717,32.7156817,0
+            51.6445335,32.7161039,0
+            51.658613,32.7151571,0
+            51.6660176,32.7083213,0
+            51.6730042,32.6989822,0
+            51.6731154,32.6874701,0
+            51.6718541,32.6793428,0
+            51.6709529,32.6715762,0
+            51.6699444,32.6643214,0
+            51.6695046,32.657773,0
+            51.6679358,32.6487915,0
+            51.6659031,32.6442008,0
+            51.6669553,32.6404712,0
+            51.6652726,32.6294345,0
+            51.6642427,32.6224227,0
+            51.6633477,32.6129017,0
+            51.6647993,32.6049755,0
+            51.6680901,32.5989419,0
+            51.6699269,32.5884211,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - ایستگاه قدس (ملکشهر) Ghods Malekshahr‏</name>
+        <description>5‏</description>
+        <styleUrl>#icon-1899-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.6029947,32.7152021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - بهارستان Baharestan‏</name>
+        <description>6‏</description>
+        <styleUrl>#icon-1739-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.6167229,32.7134165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - گلستان Golestan‏</name>
+        <description>7‏</description>
+        <styleUrl>#icon-1739-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.6312717,32.7156817,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - مفتح Mofateh‏</name>
+        <description>8‏</description>
+        <styleUrl>#icon-1739-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.6445335,32.7161039,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - علیخانی Alikhani‏</name>
+        <description>9‏</description>
+        <styleUrl>#icon-1739-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.658613,32.7151571,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - جابر Jaber‏</name>
+        <description>10‏</description>
+        <styleUrl>#icon-1739-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.6660176,32.7083213,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - ترمینال کاوه  Bus Terminal Kave ‏</name>
+        <description>11 ‏</description>
+        <styleUrl>#icon-1532-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.6730042,32.6989822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - چمران Chamran‏</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.6731154,32.6874701,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - باهنر Bahonar‏</name>
+        <description>13‏</description>
+        <styleUrl>#icon-1739-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.6718541,32.6793428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - شهدا(فروغی) Shohada‏</name>
+        <description>14‏</description>
+        <styleUrl>#icon-1739-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.6709529,32.6715762,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - تختی(عبدالرزاق) Takhti‏</name>
+        <description>15‏</description>
+        <styleUrl>#icon-1739-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.6699444,32.6643214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - امام حسین(دروازه دولت) Emam Huseyn‏</name>
+        <description>چهل ستون - میدان نقش جهان </description>
+        <styleUrl>#icon-1502-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.6695046,32.657773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - انقلاب Enghelab‏</name>
+        <description>17‏ شمال سی و سه پل و مسجد مادرشاه (مسجد چهارباغ) هتل عباسی </description>
+        <styleUrl>#icon-1739-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.6679358,32.6487915,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - سی و سه پل 33Pol ‏Si-o-se-pol‏</name>
+        <description>18 - جنوب 33 پل - مجتمع تجاری متروپل</description>
+        <styleUrl>#icon-1739-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.6669553,32.6404712,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - 19شریعتی Shariati‏</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.6652726,32.6294345,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - آزادی Azadi sq‏</name>
+        <description>20‏</description>
+        <styleUrl>#icon-1739-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.6642427,32.6224227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - دانشگاه Daneshgha (University)‏</name>
+        <styleUrl>#icon-1739-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            51.6633477,32.6129017,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - کارگر Karegar‏</name>
+        <description>22‏</description>
+        <styleUrl>#icon-1739-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.6647993,32.6049755,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - کوی امام Koy-e Emam‏</name>
+        <description>23‏</description>
+        <styleUrl>#icon-1739-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.6680901,32.5989419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>اصفهان 1 - دفاع مقدس (صفه) Defa Moghadas - Soffe‏</name>
+        <description>24‏</description>
+        <styleUrl>#icon-1532-A52714</styleUrl>
+        <Point>
+          <coordinates>
+            51.6699269,32.5884211,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>خط 1 مترو تبریز</name>
+        <styleUrl>#line-0097A7-4875-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            46.3631542,38.0198841,0
+            46.3600965,38.0296121,0
+            46.3552993,38.0397305,0
+            46.3516086,38.0467943,0
+            46.3469308,38.0539249,0
+            46.3409568,38.0604943,0
+            46.3291589,38.0648531,0
+            46.3203613,38.0672519,0
+            46.3121644,38.0695832,0
+            46.3045829,38.0716441,0
+            46.2972015,38.0742792,0
+            46.2895114,38.0763396,0
+            46.2788255,38.0757483,0
+            46.2718303,38.0678259,0
+            46.2616828,38.0633199,0
+            46.2496431,38.0572668,0
+            46.2402042,38.053539,0
+            46.2315568,38.0516466,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>تبریز 1 - ایستگاه ائل گولی</name>
+        <styleUrl>#icon-1535-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            46.3631542,38.0198841,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تبریز 1 - سهند</name>
+        <styleUrl>#icon-1739-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            46.3600965,38.0296121,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تبریز 1 -امام رضا</name>
+        <styleUrl>#icon-1739-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            46.3552993,38.0397305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تبریز 1 - خیام</name>
+        <styleUrl>#icon-1739-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            46.3516086,38.0467943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تبریز 1 - 29 بهمن</name>
+        <styleUrl>#icon-1739-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            46.3469308,38.0539249,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تبریز 1 - استاد شهریار</name>
+        <styleUrl>#icon-1739-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            46.3409568,38.0604943,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تبریز 1 - دانشگاه</name>
+        <styleUrl>#icon-1739-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            46.3291589,38.0648531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تبریز 1 - آبرسان</name>
+        <styleUrl>#icon-1739-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            46.3203613,38.0672519,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تبریز 1 - قطب زمین (سالار ملی)</name>
+        <styleUrl>#icon-1739-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            46.3121644,38.0695832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تبریز 1 - شهید بهشتی</name>
+        <styleUrl>#icon-1739-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            46.3045829,38.0716441,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تبریز 1 - میدان ساعت</name>
+        <styleUrl>#icon-1535-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            46.2972015,38.0742792,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تبریز 1 - میدان کن</name>
+        <styleUrl>#icon-1739-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            46.2895114,38.0763396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تبریز 1 - فونقا</name>
+        <styleUrl>#icon-1739-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            46.2788255,38.0757483,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تبریز 1 - گازران</name>
+        <styleUrl>#icon-1739-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            46.2718303,38.0678259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تبریز 1 - لاله</name>
+        <styleUrl>#icon-1739-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            46.2616828,38.0633199,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تبریز 1 - امام حسین</name>
+        <styleUrl>#icon-1739-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            46.2496431,38.0572668,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تبریز 1 - باکری</name>
+        <styleUrl>#icon-1739-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            46.2402042,38.053539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>تبریز 1 - نور</name>
+        <styleUrl>#icon-1899-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            46.2315568,38.0516466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>خط 1 مترو شیراز</name>
+        <styleUrl>#line-E65100-5263-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            52.5994379,29.552003,0
+            52.562783,29.6032109,0
+            52.558664,29.6083229,0
+            52.540467,29.6191798,0
+            52.5195243,29.6315651,0
+            52.5115755,29.6312392,0
+            52.502167,29.6383731,0
+            52.4854066,29.6545785,0
+            52.4863078,29.6659526,0
+            52.4731757,29.6861619,0
+            52.4541213,29.6785559,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 1 - فرودگاه شهید دستغیب Dastgheyb Shiraz INT Airport‏</name>
+        <styleUrl>#icon-1504-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            52.5994379,29.552003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 1 - فرصت Forsat‏</name>
+        <description>3‏</description>
+        <styleUrl>#icon-1739-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            52.5905185,29.5646493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 1 - جانبازان Janbazan‏</name>
+        <description>4‏</description>
+        <styleUrl>#icon-1739-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            52.5851004,29.5724267,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 1 - غدیر Ghadir‏</name>
+        <styleUrl>#icon-1739-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            52.5789984,29.5806666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 1 - رازی Razi‏</name>
+        <styleUrl>#icon-1739-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            52.5740075,29.5877994,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 1 - فضیلت Fazilat‏</name>
+        <styleUrl>#icon-1739-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            52.5676769,29.5961007,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 1 - کاوه Kave‏</name>
+        <styleUrl>#icon-1739-E65100-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            52.5630193,29.6028482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 1 - ولیعصر - کاراندیش Valiasr‏</name>
+        <description>10‏</description>
+        <styleUrl>#icon-1532-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            52.558664,29.6083229,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[شیراز 1 - وکیل الرعایا (بازار وکیل) Vakil Bazar & Mosque‏]]></name>
+        <description>10 - historical center of Shiraz - Hamam Vakil - Grand Shop‏‏‏‏</description>
+        <styleUrl>#icon-1739-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            52.5512584,29.6127149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 1 - زندیه - چهارراه زند Zandiyeh‏</name>
+        <description>11‏</description>
+        <styleUrl>#icon-1739-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            52.5413673,29.6185884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 1 و 2 - امام حسین (ستاد) Emam Housein - Setaad‏</name>
+        <description>12 - ستاد</description>
+        <styleUrl>#icon-1624-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            52.5320426,29.6241105,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 1 - نمازی Namazi‏</name>
+        <description>14‏</description>
+        <styleUrl>#icon-1739-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            52.5195243,29.6315651,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 1 - آوینی Avini‏</name>
+        <description>15‏</description>
+        <styleUrl>#icon-1739-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            52.5114711,29.631088,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 1 - شهید مطهری Motahari‏</name>
+        <description>16‏</description>
+        <styleUrl>#icon-1739-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            52.502167,29.6383731,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 1 - قصرالدشت - Ghasr-ol-Dasht‏</name>
+        <description>ترمینال یاسوج شمال غرب</description>
+        <styleUrl>#icon-1532-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            52.4852041,29.6548991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 1 - شاهد Shahed‏</name>
+        <description>18‏</description>
+        <styleUrl>#icon-1739-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            52.4863078,29.6659526,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 1 - میرزای شیرازی Mirza Shirazi‏</name>
+        <description>19‏</description>
+        <styleUrl>#icon-1739-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            52.4731757,29.6861619,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 1 - شریعتی Shariati‏</name>
+        <description>20‏</description>
+        <styleUrl>#icon-1739-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            52.4647819,29.6825468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 1 - احسان Ehsan‏</name>
+        <description>21‏</description>
+        <styleUrl>#icon-1899-E65100</styleUrl>
+        <Point>
+          <coordinates>
+            52.4541213,29.6785559,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>خط2 مترو شیراز</name>
+        <styleUrl>#line-097138-5263-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            52.5320426,29.6241105,0
+            52.5159267,29.6041704,0
+            52.5094383,29.595569,0
+            52.5085754,29.5890296,0
+            52.505496,29.577454,0
+            52.495849,29.5701954,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 2 - شیراز 2 - قهرمانان(میانرود) Ghahremanan‏</name>
+        <styleUrl>#icon-1899-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            52.495849,29.5701954,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 2 - عدالت(عادل آباد) Edalat‏</name>
+        <description>3‏</description>
+        <styleUrl>#icon-1739-097138</styleUrl>
+        <Point>
+          <coordinates>
+            52.505496,29.577454,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 2 - دولت - Goverment Station (Doulat)‏</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            52.5085754,29.5890296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 2 - رحمت Rahmat‏</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            52.5094383,29.595569,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>شیراز 2 - امیرکبیر(بسیج) Amir-Kabir - Basij ‏</name>
+        <description>6‏</description>
+        <styleUrl>#icon-1739-097138</styleUrl>
+        <Point>
+          <coordinates>
+            52.5159267,29.6041704,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>خط 1 مترو مشهد</name>
+        <styleUrl>#line-097138-4681-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            59.6391925,36.2292804,0
+            59.6235118,36.2431801,0
+            59.6198778,36.2567392,0
+            59.5857699,36.2911936,0
+            59.5639579,36.3002198,0
+            59.5403416,36.3155176,0
+            59.4425319,36.3459991,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - ایستگاه فرودگاه شهید هاشمی نژاد</name>
+        <styleUrl>#icon-1504-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6391925,36.2292804,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - بوستان ریحانه - ترمینال خارجی</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6238171,36.2436839,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - غدیر</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6198778,36.2567392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - پروین اعتصامی</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6142362,36.2625466,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - هفده شهریور</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6089577,36.2678061,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 3 و 1 - بسیج</name>
+        <styleUrl>#icon-1624-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6031252,36.273765,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - امام خمینی</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5958256,36.2811609,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 و 2 - شریعتی - تقی آباد</name>
+        <styleUrl>#icon-1624-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.585767,36.2910927,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - قائم</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5790378,36.2941304,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - طالقانی</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5726005,36.2972088,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - فلسظین</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5639579,36.3002198,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - خیام</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5524303,36.307446,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - آزادی</name>
+        <description>زیر سطحی - تونل</description>
+        <styleUrl>#icon-1739-097138</styleUrl>
+        <Point>
+          <coordinates>
+            59.5443867,36.3127305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - پارک ملت</name>
+        <description>رو سطحی</description>
+        <styleUrl>#icon-1739-097138</styleUrl>
+        <Point>
+          <coordinates>
+            59.5338052,36.317281,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - کوثر</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.524992,36.3199436,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - سید رضی</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5168327,36.3226233,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - دانش آموز</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5091298,36.3249873,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - هفت تیر</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.4999922,36.3278368,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - صدف</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.4933833,36.3297959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - صیاد شیرازی</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.4849204,36.3325932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - اقبال لاهوری ، دندانپزشکان</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.4743148,36.3358638,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - نمایشگاه</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.4633928,36.3393035,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - کوهستان پارک</name>
+        <styleUrl>#icon-1739-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.4520288,36.3429271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 1 - وکیل آباد</name>
+        <styleUrl>#icon-1568-097138-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.4425123,36.3449493,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>خط 2 مترو مشهد</name>
+        <styleUrl>#line-0288D1-5456-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            59.6754217,36.3252151,0
+            59.6622338,36.3170404,0
+            59.6549493,36.3125296,0
+            59.6440977,36.3057015,0
+            59.6328199,36.2987519,0
+            59.6240959,36.3044681,0
+            59.5772323,36.288004,0
+            59.5504086,36.2844423,0
+            59.5412585,36.2825555,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 2 - ایستگاه فکوری</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5412585,36.2825555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 2 - شهید کاوه</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5504086,36.2844423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 2 - کوهسنگی</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.563224,36.2833759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 2 - الندشت</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5776453,36.2882129,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 2 - سعدی </name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5983748,36.295359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 2 و 3 - شهدا</name>
+        <styleUrl>#icon-1624-F9A825-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6059342,36.297937,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 2 - ایستگاه راه آهن</name>
+        <styleUrl>#icon-1716-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6240959,36.3044681,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 2 - مفتح</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6328199,36.2987519,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 2 - نبوت</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6440977,36.3057015,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 2 - فجر</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6549493,36.3125296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 2 - ولایت</name>
+        <styleUrl>#icon-1739-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6622338,36.3170404,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 2 - طبرسی</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6754217,36.3252151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 3 - ترمینال مسافربری امام رضا (ع)</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5923656,36.2622714,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 3 - 15 خرداد</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5985118,36.2686961,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 3 - مصباح</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6076304,36.279122,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 3 - باب الجواد</name>
+        <styleUrl>#icon-1673-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6105966,36.2862086,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>مشهد 3 - خسروی</name>
+        <styleUrl>#icon-1899-A52714-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6064982,36.2908612,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>خط 3 مترو مشهد </name>
+        <styleUrl>#line-A52714-5263-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            59.6057863,36.2978202,0
+            59.6064982,36.2908612,0
+            59.6105966,36.2862086,0
+            59.6076304,36.279122,0
+            59.6031252,36.273765,0
+            59.5985118,36.2686961,0
+            59.5923656,36.2622714,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

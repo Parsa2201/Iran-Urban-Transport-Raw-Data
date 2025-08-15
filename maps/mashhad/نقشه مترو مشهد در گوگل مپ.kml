@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>ایستگاه های مترو مشهد روی نقشه</name>
+    <description><![CDATA[تمام ایستگاه های مترو مشهد با رنگ اختصاصی خود روی نقشه گوگل مشخص شده‌اند. برای الحاق همیشگی این خطوط به گوگل مپ خود، آن را باز زدن ستاره کناری، بوک مارک کنید.<br>جهت اطلاعات بیشتر درباره متروی مشهد به صفحه اختصاصی آن از لحظه آخر مراجعه کنید.<br>https://lahzeakhar.com/tourism-Guide-Full-information/8421-%D9%85%D8%AA%D8%B1%D9%88-%D9%85%D8%B4%D9%87%D8%AF]]></description>
+    <Style id="icon-1626-0097A7-nodesc-normal">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1626-0097A7-nodesc-highlight">
+      <IconStyle>
+        <color>ffa79700</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1626-0097A7-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1626-0097A7-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1626-0097A7-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1626-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1626-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1626-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1626-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1626-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1626-0F9D58-nodesc-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1626-0F9D58-nodesc-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1626-0F9D58-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1626-0F9D58-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1626-0F9D58-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0097A7-6619-nodesc-normal">
+      <LineStyle>
+        <color>ffa79700</color>
+        <width>6.619</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0097A7-6619-nodesc-highlight">
+      <LineStyle>
+        <color>ffa79700</color>
+        <width>9.9285</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0097A7-6619-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0097A7-6619-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0097A7-6619-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0F9D58-7006-nodesc-normal">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>7.006</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-0F9D58-7006-nodesc-highlight">
+      <LineStyle>
+        <color>ff589d0f</color>
+        <width>10.509</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-0F9D58-7006-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0F9D58-7006-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0F9D58-7006-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>خط یک مترو مشهد</name>
+      <Placemark>
+        <name>ایستگاه مترو وکیل آباد</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.4422418,36.3462582,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو کوهستان پارک</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.4524998,36.3427593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو نمایشگاه</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.4633651,36.3392987,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو اقبال لاهوری</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.4745192,36.3358293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو صیاد شیرازی</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.4849096,36.3325655,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو صدف</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.4934114,36.3299218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو هفت تیر</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.4998894,36.3278995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو دانش آموز</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.509247,36.3249942,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو سید رضی</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5168327,36.322606,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو صدف</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5250846,36.3200625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو پارک ملت</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5338994,36.3173698,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو آزادی</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5445583,36.3127796,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو خیام</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5524523,36.3075829,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو فلسطین</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5631985,36.3007119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو طالقانی</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5726454,36.2972625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو قائم</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5785852,36.2945201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو شریعتی</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5858526,36.2911467,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو امام خمینی</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5961261,36.2815061,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو بسیج</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6029435,36.2735783,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو هفده شهریور</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6088491,36.2677877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو پروین اعتصامی</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6143246,36.2625697,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو غدیر</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6907,36.3027351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو بوستان ریحانه </name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6238283,36.2436137,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو فرودگاه شهید هاشمی نژاد‎</name>
+        <styleUrl>#icon-1626-0F9D58-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6405811,36.229113,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>خط 1 مترو</name>
+        <styleUrl>#line-0F9D58-7006-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            59.4422418,36.3462582,0
+            59.4524998,36.3427593,0
+            59.4633651,36.3392987,0
+            59.4745192,36.3358293,0
+            59.4849096,36.3325655,0
+            59.4934114,36.3299218,0
+            59.4998894,36.3278995,0
+            59.509247,36.3249942,0
+            59.5168327,36.322606,0
+            59.5250846,36.3200625,0
+            59.5338994,36.3173698,0
+            59.5445583,36.3127796,0
+            59.5524523,36.3075829,0
+            59.5631985,36.3007119,0
+            59.5726454,36.2972625,0
+            59.5785852,36.2945201,0
+            59.5858526,36.2911467,0
+            59.5961261,36.2815061,0
+            59.6029435,36.2735783,0
+            59.6088491,36.2677877,0
+            59.6143246,36.2625697,0
+            59.6198807,36.2566663,0
+            59.6256312,36.2571307,0
+            59.6264463,36.2555633,0
+            59.6182707,36.2536031,0
+            59.6238283,36.2436137,0
+            59.6405811,36.229113,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>خط دو مترو مشهد</name>
+      <Placemark>
+        <name>ایستگاه مترو طبرسی</name>
+        <styleUrl>#icon-1626-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6752775,36.3251614,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو ولایت</name>
+        <styleUrl>#icon-1626-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6622205,36.3170033,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو فجر </name>
+        <styleUrl>#icon-1626-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6549892,36.3124992,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو نبوت </name>
+        <styleUrl>#icon-1626-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6441317,36.3057145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو شهید مفتح</name>
+        <styleUrl>#icon-1626-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6328423,36.298733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو راه آهن</name>
+        <styleUrl>#icon-1626-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6223172,36.3034212,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو شهدا‎</name>
+        <styleUrl>#icon-1626-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.6635235,36.549436,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو سعدی</name>
+        <styleUrl>#icon-1626-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5983946,36.2953926,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو شریعتی</name>
+        <styleUrl>#icon-1626-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.586146,36.2913104,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو الندشت</name>
+        <styleUrl>#icon-1626-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5776451,36.288174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو کوهسنگی</name>
+        <styleUrl>#icon-1626-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5632094,36.2833226,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو شهید کاوه</name>
+        <styleUrl>#icon-1626-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5502328,36.2845591,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ایستگاه مترو شهید جوان (سلامت)</name>
+        <styleUrl>#icon-1626-0097A7-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            59.5444742,36.2833174,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>خط 2 مترو</name>
+        <styleUrl>#line-0097A7-6619-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            59.6752775,36.3251614,0
+            59.6622205,36.3170033,0
+            59.6549892,36.3124992,0
+            59.6441317,36.3057145,0
+            59.6328423,36.298733,0
+            59.6286285,36.2959396,0
+            59.6223172,36.3034212,0
+            59.6059505,36.2979219,0
+            59.5983946,36.2953926,0
+            59.586146,36.2913104,0
+            59.5776451,36.288174,0
+            59.5632094,36.2833226,0
+            59.55479,36.2811389,0
+            59.5502328,36.2845591,0
+            59.5442608,36.2830223,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Untitled layer</name>
+    </Folder>
+    <Folder>
+      <name>Untitled layer</name>
+    </Folder>
+  </Document>
+</kml>
